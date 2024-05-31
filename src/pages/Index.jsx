@@ -13,7 +13,7 @@ const Index = () => {
     setOutput("");
 
     try {
-      const response = await fetch("/api/fetch-readme", {
+      const response = await fetch("http://localhost:3000/api/fetch-readme", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
